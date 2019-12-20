@@ -10,6 +10,7 @@ import DovanuListContainer from './components/Dovanos/DovanuListContainer';
 import Navigacija from './components/Navigacija/Navigacija';
 import DovanuAdminContainer from './components/Dovanu administravimas/DovanuAdminContainer';
 import AddNewDovanaContainer from './components/Dovanu administravimas/AddNewDovanaContainer';
+import LaiskuContainer from './components/Laiskai/LaiskuContainer';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route exact path="/" component={DovanuListContainer} />
         <Route exact path="/admin/" component={DovanuAdminContainer} />
         <Route exact path="/admin/add" component={AddNewDovanaContainer} />
+        <Route exact path="/laiskai/" component={LaiskuContainer} />
     </BrowserRouter>
     , document.getElementById('root'));
 

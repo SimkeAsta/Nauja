@@ -33,7 +33,7 @@ DovanosAdminComponent.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     kidsPresent: PropTypes.bool,
-    onCheckDetails: PropTypes.func.isRequired
+    // onCheckDetails: PropTypes.func.isRequired
 }
 
 export default DovanosAdminComponent;
