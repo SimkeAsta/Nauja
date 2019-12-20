@@ -6,4 +6,6 @@ import ltu.dovanos.entities.Laiskas;
 
 public interface LaiskasRepository extends JpaRepository<Laiskas, Long> {
 
+	Laiskas findLaiskasById(Long id);
+
 }
