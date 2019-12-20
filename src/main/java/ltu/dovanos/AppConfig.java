@@ -1,4 +1,4 @@
-package lt.egzaminas;
+package ltu.dovanos;
 
 import org.springframework.context.annotation.Configuration;
 

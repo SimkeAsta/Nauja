@@ -1,4 +1,4 @@
-package lt.egzaminas;
+package ltu.dovanos;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;

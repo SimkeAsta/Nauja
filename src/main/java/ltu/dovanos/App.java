@@ -1,4 +1,4 @@
-package lt.egzaminas;
+package ltu.dovanos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +19,7 @@ public class App extends SpringBootServletInitializer {
 	@Bean
 	public Docket swaggerDocket() {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage("lt.egzaminas")).build();
+				.apis(RequestHandlerSelectors.basePackage("ltu.dovanos")).build();
 	}
 
 	private ApiInfo apiInfo() {
