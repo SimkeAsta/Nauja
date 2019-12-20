@@ -1,7 +1,10 @@
 package ltu.dovanos.entities;
 
+import javax.validation.constraints.NotNull;
+
 public class DovanaCommand {
 
+	@NotNull(message = "Dovana title is required!")
 	private String title;
 	private String description;
 	private String image;
