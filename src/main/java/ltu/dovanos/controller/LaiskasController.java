@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import ltu.dovanos.entities.Dovana;
-import ltu.dovanos.entities.DovanaCommand;
 import ltu.dovanos.entities.Laiskas;
 import ltu.dovanos.entities.LaiskasCommand;
 import ltu.dovanos.services.LaiskasService;

@@ -18,7 +18,7 @@ class DovanosAdminComponent extends Component {
                             <td>{this.props.title}</td>
                             <td>{this.props.image}</td>
                             <td>{this.props.kidsPresent}</td>
-                            {/* <td><Link to={`/admin/${this.props.id}`}><button type="button" className="btn btn-light" onClick={this.props.onCheckDetails}>Check And update</button></Link></td> */}
+
                         </tr>
                     </tbody>
                 </table>
@@ -33,7 +33,6 @@ DovanosAdminComponent.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     kidsPresent: PropTypes.bool,
-    // onCheckDetails: PropTypes.func.isRequired
 }
 
 export default DovanosAdminComponent;

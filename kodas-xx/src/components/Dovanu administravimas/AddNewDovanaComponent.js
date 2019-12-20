@@ -35,16 +35,6 @@ class AddNewDovanaFormComponent extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="form-row">
-                        <div className="col-md-2 offset-md-4 mb-3">
-                            <label>Price</label>
-                            <input type="text" name="price" className="form-control" id="validationDefault03" placeholder="Price" required onChange={this.props.onChange} />
-                        </div>
-                        <div className="col-md-2 mb-3">
-                            <label>Quantity</label>
-                            <input type="text" name="quantity" className="form-control" id="validationDefault04" placeholder="Quantity" onChange={this.props.onChange} />
-                        </div>
-                    </div> */}
                     <div className="form-row">
                         <div className="col-md-2 offset-md-4 mb-3">
                             <button className="btn btn-warning" type="submit" value="Submit">Issaugoti</button>

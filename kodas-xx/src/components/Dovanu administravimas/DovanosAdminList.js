@@ -13,7 +13,6 @@ var DovanosAdminList = (props) => {
                 title={dovana.title}
                 description={dovana.description}
                 kidsPresent={dovana.kidsPresent}
-            // onCheckDetails={(event) => props.onCheckDetails(event, dovana.title)}
             />
         );
     });
@@ -22,7 +21,6 @@ var DovanosAdminList = (props) => {
 
 DovanosAdminList.propTypes = {
     dovanos: PropTypes.array.isRequired,
-    // onCheckDetails: PropTypes.func.isRequired,
 };
 
 export default DovanosAdminList;
